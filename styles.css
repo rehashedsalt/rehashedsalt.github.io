@@ -6,12 +6,14 @@
  */
 
 :root {
-	--black-dark: #242436;
-	--black-light: #484856;
+	--foreground: #ffffff;
+	--background-dark: #263238;
+	--background: #2a353b;
+	--primary: #00bcd4;
 
-	--foreground: var(--black-dark);
-	--background-dark: #e7d7c1;
-	--background: #fef3dc;
+	--link: #2eb8e6;
+	--link-visited: #ff6666;
+	--link-active: #ff80e0;
 }
 
 body {
@@ -21,6 +23,22 @@ body {
 	margin: 2em auto;
 	background: var(--background-dark);
 	color: var(--foreground);
+}
+
+a:link {
+	color: var(--link);
+}
+
+a:visited {
+	color: var(--link-visited);
+}
+
+a:hover {
+	color: var(--primary);
+}
+
+a:active {
+	color: var(--link-active);
 }
 
 table {
