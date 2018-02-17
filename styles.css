@@ -1,0 +1,40 @@
+/*
+ * styles.css
+ * Copyright (C) 2018 salt
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+:root {
+	--black-dark: #242436;
+	--black-light: #484856;
+
+	--foreground: var(--black-dark);
+	--background-dark: #e7d7c1;
+	--background: #fef3dc;
+}
+
+body {
+	font-family: "Helvetica CE 10", sans-serif;
+	font-size: 11px;
+	max-width: 800px;
+	margin: 2em auto;
+	background: var(--background-dark);
+	color: var(--foreground);
+}
+
+table {
+	margin: 1em auto;
+	background: var(--background-dark);
+}
+
+.section {
+	background: var(--background);
+	padding: 10px;
+	margin: 5px;
+}
+
+#header {
+	text-align: center;
+}
+
